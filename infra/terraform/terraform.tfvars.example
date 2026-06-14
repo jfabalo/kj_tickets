@@ -1,0 +1,27 @@
+﻿# Copy to terraform.tfvars if needed. Do not commit terraform.tfvars.
+aws_region     = "us-east-1"
+project_name   = "ticket-service"
+environment    = "academy"
+operator_cidr  = "0.0.0.0/32"
+
+worker_image_tag = "latest"
+loadgen_image_tag = "latest"
+scaler_image_tag = "latest"
+
+min_workers    = 1
+max_workers    = 8
+
+# Real base infra is off by default to avoid accidental AWS Academy costs.
+enable_core_infra     = false
+enable_worker_service = false
+enable_scaler_service = false
+
+worker_desired_count = 0
+scaler_desired_count = 0
+
+ec2_instance_type     = "t3.micro"
+ec2_root_volume_size = 8
+
+worker_repository_name = "ticket-service-worker"
+loadgen_repository_name = "ticket-service-loadgen"
+scaler_repository_name = "ticket-service-scaler"

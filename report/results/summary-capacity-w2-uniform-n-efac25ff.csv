@@ -1,0 +1,2 @@
+run_id,requests,completed,sold,sold_out,seat_unavailable,errored,first_enqueued_at,first_worker_started_at,last_completed_at,server_processing_window_seconds,completed_per_second_server_window,processing_p50_seconds,processing_p95_seconds,processing_p99_seconds,end_to_end_p50_seconds,end_to_end_p95_seconds,end_to_end_p99_seconds
+efac25ff-74ce-4426-bdf3-ba401c2b30ac,600,600,599,0,1,0,2026-06-08 16:02:08.683567+00,2026-06-08 16:02:08.706728+00,2026-06-08 16:02:47.263856+00,38.557128,15.5613250032523169,0.1049925,0.1059622,0.10693921,14.2667915,27.13462095,28.2900625

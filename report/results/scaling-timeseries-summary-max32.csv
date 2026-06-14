@@ -1,0 +1,6 @@
+test_key,label,profile,max_workers_config,max_rabbit_ready,max_rabbit_total,max_publish_rate,max_ack_rate,max_worker_desired,max_worker_running,max_formula_target_observed,first_worker_running_at_s,first_max_worker_running_at_s
+baseline_original,"Original Z, 1 worker fijo",original,1,555,556,60.6,8.0,1,1,10,0.015,0.015
+autoscale_max8_original,"Original Z, autoscale max8",original,8,554,555,63.2,56.4,8,8,10,8.33,87.038
+autoscale_max32_original,"Original Z, autoscale max32",original,32,513,514,47.0,52.8,9,8,8,7.7,97.738
+baseline_aggressive,"Aggressive Z, 1 worker fijo",aggressive,1,2354,2355,174.8,8.0,1,1,32,0.011,0.011
+autoscale_max32_aggressive,"Aggressive Z, autoscale max32",aggressive,32,2388,2389,140.2,103.8,32,32,32,45.367,120.763

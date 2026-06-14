@@ -1,0 +1,17 @@
+{
+    "run_id":  "fb7f61c9-52eb-45f2-91a8-a2af64073f6e",
+    "artifact":  "hotspot-w4-hotspot-n-fb7f61c9",
+    "source":  "ecs-fargate",
+    "mode":  "numbered",
+    "distribution":  "hotspot",
+    "profile":  "constant",
+    "requested_messages":  1200,
+    "requested_rate":  120,
+    "task_arn":  "arn:aws:ecs:us-east-1:065586234233:task/ticket-service-academy-worker/f9e9ed7b01da4ab68ac7be0e5ffa9f13",
+    "task_status":  "STOPPED",
+    "stop_code":  "EssentialContainerExited",
+    "stopped_reason":  "Essential container in task exited",
+    "container_exit_code":  0,
+    "container_reason":  null,
+    "created_at":  "2026-06-08T16:14:24.6322883Z"
+}

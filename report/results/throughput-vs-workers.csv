@@ -1,0 +1,5 @@
+workers,source_file,requests,completed,sold,seat_unavailable,errored,experiment_window_seconds,throughput_experiment,throughput_server,processing_p50_seconds,processing_p95_seconds,end_to_end_p50_seconds,end_to_end_p95_seconds
+1,summary-capacity-w1-uniform-n-fb6cd70e.csv,300,300,299,1,0,37.927168,7.909897,7.915029,0.104673,0.10522195,14.061425,26.579534650000003
+2,summary-capacity-w2-uniform-n-efac25ff.csv,600,600,599,1,0,38.580289,15.551983,15.561325,0.1049925,0.1059622,14.2667915,27.13462095
+4,summary-capacity-w4-uniform-n-eba2f751.csv,1200,1200,1194,6,0,39.321877,30.517363,30.536454,0.1051545,0.10704785,14.583556000000002,27.92000925
+8,summary-capacity-w8-uniform-n-41a6ede4.csv,2400,2400,2378,22,0,43.692622,54.929182,54.967466,0.1064155,0.1140764,16.932949999999998,32.06951875

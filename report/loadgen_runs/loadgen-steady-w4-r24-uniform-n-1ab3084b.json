@@ -1,0 +1,17 @@
+{
+    "run_id":  "1ab3084b-58ca-46e2-9050-896d3088ddfd",
+    "artifact":  "steady-w4-r24-uniform-n-1ab3084b",
+    "source":  "ecs-fargate",
+    "mode":  "numbered",
+    "distribution":  "uniform",
+    "profile":  "constant",
+    "requested_messages":  480,
+    "requested_rate":  24,
+    "task_arn":  "arn:aws:ecs:us-east-1:065586234233:task/ticket-service-academy-worker/1fd16e39e14f4f84a1a19e60353b6a08",
+    "task_status":  "STOPPED",
+    "stop_code":  "EssentialContainerExited",
+    "stopped_reason":  "Essential container in task exited",
+    "container_exit_code":  0,
+    "container_reason":  null,
+    "created_at":  "2026-06-08T16:20:56.1357611Z"
+}

@@ -1,0 +1,43 @@
+﻿# Local secrets
+aws-academy-credentials.txt
+*.aws-academy-credentials.txt
+*credentials*.txt
+*credentials*.csv
+*.pem
+*.key
+*.ppk
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+.terraform.tfstate.lock.info
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# Local archives / handoff bundles
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz

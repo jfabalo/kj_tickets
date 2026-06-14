@@ -1,0 +1,4 @@
+# Graficas PNG para el informe.
+matplotlib
+# Lectura y transformacion de CSVs de resultados.
+pandas

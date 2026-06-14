@@ -1,0 +1,6 @@
+# Cliente AWS para ECS UpdateService.
+boto3==1.42.4
+# Cliente HTTP para RabbitMQ Management API.
+requests==2.32.5
+# Compatibilidad local con .env si se ejecuta fuera de ECS.
+python-dotenv==1.2.1

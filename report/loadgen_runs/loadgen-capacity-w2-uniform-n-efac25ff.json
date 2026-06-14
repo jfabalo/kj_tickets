@@ -1,0 +1,17 @@
+{
+    "run_id":  "efac25ff-74ce-4426-bdf3-ba401c2b30ac",
+    "artifact":  "capacity-w2-uniform-n-efac25ff",
+    "source":  "ecs-fargate",
+    "mode":  "numbered",
+    "distribution":  "uniform",
+    "profile":  "constant",
+    "requested_messages":  600,
+    "requested_rate":  60,
+    "task_arn":  "arn:aws:ecs:us-east-1:065586234233:task/ticket-service-academy-worker/878fad8d25634d75b8629818ead18444",
+    "task_status":  "STOPPED",
+    "stop_code":  "EssentialContainerExited",
+    "stopped_reason":  "Essential container in task exited",
+    "container_exit_code":  0,
+    "container_reason":  null,
+    "created_at":  "2026-06-08T16:02:50.6458592Z"
+}

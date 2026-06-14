@@ -1,0 +1,4 @@
+config,label,requests,completed,errored,experiment_window_seconds,throughput_end_to_end,end_to_end_p50_seconds,end_to_end_p95_seconds,end_to_end_p99_seconds
+max1,max1 / 1 worker fijo,720,720,0,96.442578,7.465582265957263,37.2577645,70.465666,72.69550827
+max8,max8 / autoscale,720,720,0,45.878306,15.693691916174934,24.8896145,26.7172176,26.82602151
+max32,max32 / autoscale,720,720,0,54.673311,13.169131095791876,32.7944915,35.4268653,35.52638537
